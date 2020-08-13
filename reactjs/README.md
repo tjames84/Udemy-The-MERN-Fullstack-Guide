@@ -1,3 +1,21 @@
+
+Goals list
+
+This is an small single page react app that displays a list of goals and allows the user to add goals.
+
+The main take aways are refreshing knowledge with:
+
+    1. JSX
+    2. Components
+    3. multiple Components
+    4. Props and passing data between components
+    5. rending list of data
+    6. handling events
+    7. child to parent communication
+    8. working with State
+    9. User input (two-way Binding)
+
+*********************************************************************************************************************************    
 Quiz!
 
 1. What is React.js about?
