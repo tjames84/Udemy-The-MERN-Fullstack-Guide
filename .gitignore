@@ -1,4 +1,12 @@
+
+ReactJS folder ignores
 /reactjs/node_modules
+
+Frontend folder ignores
 /frontend/node_modules
 
+Node Express folder ignores
 /node-express/node_modules
+
+Backend folder ignores
+/backend/node_modules
