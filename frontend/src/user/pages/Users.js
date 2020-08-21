@@ -1,6 +1,7 @@
 import React from 'react';
-
 import UsersList from '../components/UsersList';
+
+import Picture from '../../goku_ssj_chibi.png';
 
 const Users = () => {
   const USERS = [
@@ -8,7 +9,7 @@ const Users = () => {
       id: 'u1',
       name: 'Tony James',
       image:
-        'https://images.pexels.com/photos/839011/pexels-photo-839011.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
+        Picture,
       places: 2
     }
   ];
