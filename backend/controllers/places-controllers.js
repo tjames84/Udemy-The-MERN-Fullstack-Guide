@@ -42,7 +42,7 @@ const getPlacesByUserId = (req, res, next) => {
 
   if (!places || places.length === 0) {
     return next(
-      new HttpError('Could not find a places for the provided user id.', 404)
+      new HttpError('Could not find places for the provided user id.', 404)
     );
   }
 
