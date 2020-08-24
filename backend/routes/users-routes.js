@@ -8,10 +8,16 @@ const router = express.Router();
 router.get('/', usersController.getUsers);
 
 router.post(
-  "/signup",
-  check("name").not().isEmpty(),
-  check("email").normalizeEmail().isEmail(), // Test@test.com => test@test.com
-  check("password").isLength({min : 6}),
+  '/signup',
+  [
+    check('name')
+      .not()
+      .isEmpty(),
+    check('email')
+      .normalizeEmail() // Test@test.com => test@test.com
+      .isEmail(),
+    check('password').isLength({ min: 6 })
+  ],
   usersController.signup
 );
 
