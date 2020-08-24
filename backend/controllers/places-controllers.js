@@ -1,4 +1,3 @@
-// npm install --save uuid
 const uuid = require('uuid/v4');
 
 const HttpError = require('../models/http-error');
